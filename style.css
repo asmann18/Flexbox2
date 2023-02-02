@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.services_h1, .teams_h1{
+    margin: 30px 150px;
+    border-bottom: 1px solid green;
+}
+
+.services, .teams{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 20px 150px;
+}
+
+.service_head{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: green;
+}
+
+.team_img{
+    width: 350px;
+    height: 350px;
+}
+
+.team_img img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.team_text{
+    position: relative;
+    list-style-type: none;
+}
+
+.team_text_item{
+    position: absolute;
+    top: 10px;
+    color: green;
+}
+
+.team_text_item1{
+    position: absolute;
+    top: 30px;
+    font-style: italic;
+}
+.team_text_item2{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
